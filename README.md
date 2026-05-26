@@ -17,5 +17,5 @@
 - `building_id` / `building_name`: `14` / `兰梅`
 - `auto_detect_building`: `true`
 
-使用前请自行更换`_conf_schema.json`中的`account`字段
+使用前请自行更换`_conf_schema.json`中的`account`字段  
 开启自动识别楼栋后，如果优先楼栋查不到房间，插件会自动获取楼栋列表并逐栋尝试。
