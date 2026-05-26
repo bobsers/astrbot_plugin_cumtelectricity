@@ -1,0 +1,8 @@
+name: astrbot_plugin_cumtelectricity
+display_name: CUMT 电费查询
+desc: 中国矿业大学宿舍剩余电量查询插件，支持自动识别楼栋、/电费 <宿舍号> 和 /电费 绑定 <宿舍号>。
+short_desc: 自动识别楼栋并查询宿舍剩余电量。
+version: v1.2.0
+author: bobsers
+repo: ""
+astrbot_version: ">=4.9.2"

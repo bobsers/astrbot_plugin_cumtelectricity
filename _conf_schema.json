@@ -1,0 +1,75 @@
+{
+  "endpoint_url": {
+    "description": "查询接口地址",
+    "type": "string",
+    "default": "https://yktm.cumt.edu.cn/web/Common/Tsm.html"
+  },
+  "aid": {
+    "description": "一卡通接口 aid",
+    "type": "string",
+    "default": "0030000000002501"
+  },
+  "account": {
+    "description": "一卡通账号",
+    "type": "string",
+    "default": "179184",
+    "hint": "account 字段。"
+  },
+  "floor_id": {
+    "description": "楼层 ID",
+    "type": "string",
+    "default": ""
+  },
+  "floor_name": {
+    "description": "楼层名称",
+    "type": "string",
+    "default": ""
+  },
+  "area_id": {
+    "description": "校区/区域 ID",
+    "type": "string",
+    "default": "1"
+  },
+  "area_name": {
+    "description": "校区/区域名称",
+    "type": "string",
+    "default": "中国矿业大学"
+  },
+  "building_id": {
+    "description": "楼栋 ID",
+    "type": "string",
+    "default": "14"
+  },
+  "building_name": {
+    "description": "楼栋名称",
+    "type": "string",
+    "default": "兰梅"
+  },
+  "auto_detect_building": {
+    "description": "自动识别宿舍所属楼栋",
+    "type": "bool",
+    "default": true,
+    "hint": "开启后，如果优先楼栋查不到房间，会自动获取楼栋列表并逐栋尝试。"
+  },
+  "timeout_seconds": {
+    "description": "接口请求超时时间（秒）",
+    "type": "float",
+    "default": 15.0
+  },
+  "low_power_threshold": {
+    "description": "低电量提醒阈值（度）",
+    "type": "float",
+    "default": 20.0,
+    "hint": "设置为 0 可关闭低电量提醒。"
+  },
+  "verify_tls": {
+    "description": "校验 HTTPS 证书",
+    "type": "bool",
+    "default": true
+  },
+  "user_agent": {
+    "description": "请求 User-Agent",
+    "type": "string",
+    "default": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36"
+  }
+}
